@@ -1,1 +1,63 @@
-/* your styles will go here!! */
+a{
+    color: black;
+}
+h1{
+    color: #000;
+    text-align: center;
+    font-family: "Brygada 1918";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h2{
+    color: #000;
+    text-align: center;
+    font-family: "Brygada 1918";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo{
+    width: 101px;
+    height: 103px;
+}
+.Chocolate {
+    width: 442px;
+    height: 442px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.Stetson{
+    width: 463px;
+    height: 443px;
+    flex-shrink: 0;
+}
+.Pear{
+    width: 561px;
+    height: 444px;
+    flex-shrink: 0;
+}
+.Self{
+    width: 542px;
+    height: 700px;
+    flex-shrink: 0;
+}
+.About{
+    color: #000;
+    text-align: center;
+    font-family: "Brygada 1918";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Me{
+    color: #000;
+    font-family: "Brygada 1918";
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
