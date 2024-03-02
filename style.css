@@ -1,5 +1,8 @@
+body {
+    background-color: rgb(47, 83, 90);
+  }
 h1{
-    color: #000;
+    color: #ffffff;
     text-align: center;
     font-family: "Brygada 1918";
     font-size: 2000%;
@@ -8,19 +11,21 @@ h1{
     line-height: normal;
     flex-grow: 2;
     margin-bottom: 0%;
+    text-decoration: underline;
 }
 h2{
-    color: #000;
+    color: #ffffff;
     text-align: center;
     font-family: "Brygada 1918";
     font-size: 800%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: underline;
 }
 .nav{
+    color:#ffffff;
     font-size: 1000%;
-    color: black;
     text-align: center;
     font-family: "Brygada 1918";
     font-style: normal;
@@ -32,11 +37,14 @@ h2{
 .logo{
     width: 10%;
     flex-grow: 2;
+    margin: 5%;
+    margin-bottom: 0%;
 }
 .Chocolate {
     width: 50%;
     flex-grow: 2;
     margin-left: 25%;
+    background-color: aliceblue;
 }
 .Stetson{
     width: 50%;
@@ -54,7 +62,7 @@ h2{
     margin-left: 25%;
 }
 .About{
-    color: #000;
+    color: #ffffff;
     text-align: center;
     font-family: "Brygada 1918";
     font-size: 64px;
@@ -63,14 +71,12 @@ h2{
     line-height: normal;
 }
 .subtext{
-    color: #000;
+    color: #ffffff;
     text-align: left;
     font-family: "Brygada 1918";
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 1%;
     }   
-    body {
-        background-color: rgb(237, 248, 250);
-      }
