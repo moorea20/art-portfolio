@@ -1,6 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
   }
+a{color: black;}
 h1{
     color: #000000;
     text-align: center;
@@ -15,13 +16,17 @@ h1{
 }
 h2{
     color: #000000;
-    text-align: center;
+    text-align: left;
     font-family: "Brygada 1918";
-    font-size: 800%;
+    font-size: 300%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration: underline;
+    flex-grow: 2;
+    margin-bottom: 0%;
+    margin-left: 3.5%
+    justify-content: space-between
+
 }
 .nav{
     color:#000000;
@@ -29,7 +34,7 @@ h2{
     text-align: center;
     font-family: "Brygada 1918";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300%;
     line-height: normal;
     flex-grow: 2;
     margin-top: 4%;
@@ -42,25 +47,35 @@ h2{
     margin-bottom: 0%;
 }
 .Chocolate {
-max-width: 50%;
+max-width: 30%;
+min-width: 20%;
+justify-content: space-between;
+margin-left: 3%;
+flex-grow: 2;
+flex-shrink: 2;
 }
 .Lights{
-    max-width: 50%;
+    max-width: 30%;
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-shrink: 2;
 }
 .Pear{
-    max-width: 50%;
+    max-width: 32.1%;
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-shrink: 2;
     
 }
 .Self{
-    width: 50%;
+    width: 40%;
     flex-grow: 2;
-    margin-left: 25%;
+    margin-left: 55.7%;
 }
 .About{
-    color: #ffffff;
-    text-align: center;
-    font-family: "Brygada 1918";
-    font-size: 64px;
+    color: #000;
+    font-family: "Encode Sans Semi Condensed";
+    font-size: 33px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -79,4 +94,5 @@ max-width: 50%;
         flex-grow: 2;
         margin-top: 1%;
         max-width: 200%;
+        margin-left: 0;
     }
